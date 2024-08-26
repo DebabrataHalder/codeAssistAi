@@ -103,7 +103,7 @@ def display_code(file_path):
 def get_rectified_code():
     # Load environment variables from .env file
     load_dotenv()
-
+    print("@@@@@@@@@@")
     # Initialize the Groq client
     client = Groq(
         api_key=os.environ.get("GROQ_API_KEY"),
